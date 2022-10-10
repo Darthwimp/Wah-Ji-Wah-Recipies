@@ -1,16 +1,13 @@
-# recipe_app
+# Wah-Ji-Wah-Recipies
 
-A new Flutter project.
+This is a simple beginners flutter project whiich focuses on playing videos for different recipes. 
 
-## Getting Started
+The following dependencies have been used to build the app:-
+google_fonts: ^3.0.1
+youtube_player_flutter: ^8.1.0
 
-This project is a starting point for a Flutter application.
+the credits for the sample video goes to: https://www.youtube.com/watch?v=a03U45jFxOI&t=7s&ab_channel=GetCurried
 
-A few resources to get you started if this is your first Flutter project:
+all the images used were taken from the internet as well and none of them were made by me.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
