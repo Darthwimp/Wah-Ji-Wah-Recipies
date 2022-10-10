@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
             Icon(Icons.restaurant_outlined),
             SizedBox(width: 20),
             Text(
-              "Wah Ji Wah Recipes!",
+              "Wah Ji Wah Recipies!",
             ),
           ],
         ),

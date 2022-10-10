@@ -29,7 +29,7 @@ class _Butter_ChickenState extends State<Butter_Chicken> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFFDD5353),
-        title: const Text("Sample-Video"),
+        title: const Text("Your Recipie!"),
       ),
       body: Column(
         children: [
