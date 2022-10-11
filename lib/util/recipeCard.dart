@@ -1,9 +1,10 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; //importing dependencies
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:recipe_app/util/videoImp.dart';
 
 class recipe extends StatefulWidget {
+  //creating a stateful widget for our buttons/item_cards
   @override
   State<recipe> createState() => _recipeState();
 }
@@ -11,14 +12,18 @@ class recipe extends StatefulWidget {
 class _recipeState extends State<recipe> {
   @override
   Widget recipeCard(BuildContext context, String imageName) {
+    //creating a widget function for redundancy with string parameteres
     return TextButton(
       onPressed: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => Butter_Chicken()),
+          MaterialPageRoute(
+              builder: (context) =>
+                  Butter_Chicken()), //re-routing to the a different page
         );
       },
       child: Container(
+        //initializing the container
         margin: EdgeInsets.symmetric(horizontal: 22, vertical: 10),
         width: MediaQuery.of(context).size.width,
         height: 180,
@@ -34,6 +39,7 @@ class _recipeState extends State<recipe> {
           ),
         ),
         decoration: BoxDecoration(
+          //adding decorations to the container
           color: Colors.black,
           borderRadius: BorderRadius.circular(15),
           boxShadow: [
@@ -48,6 +54,7 @@ class _recipeState extends State<recipe> {
             ),
           ],
           image: DecorationImage(
+            //adding a background image to the container
             colorFilter: ColorFilter.mode(
               Colors.black.withOpacity(0.35),
               BlendMode.multiply,
@@ -66,6 +73,7 @@ class _recipeState extends State<recipe> {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            //calling the widget function we built earlier
             recipeCard(context, 'Butter Chicken'),
             recipeCard(context, 'Chicken Biryani'),
             recipeCard(context, 'Chicken Momos'),
