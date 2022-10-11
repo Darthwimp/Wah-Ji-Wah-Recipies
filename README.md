@@ -10,4 +10,8 @@ the credits for the sample video goes to: https://www.youtube.com/watch?v=a03U45
 
 all the images used were taken from the internet and none of them were made by me.
 
+# Preview of the app
 
+<img src ="Screenshots/Splash%20Page.jpg" width="250" height="600">
+<img src ="Screenshots/itemlist1.jpg" width="250" height="600">
+<img src ="Screenshots/itemlist2.jpg" width="250" height="600">
