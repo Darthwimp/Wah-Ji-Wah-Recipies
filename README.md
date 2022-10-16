@@ -10,10 +10,12 @@ all the images used were taken from the internet and none of them were created b
 
 ## How to run the app
 <li> Clone the repository on your local PC using git clone https://github.com/Darthwimp/Wah-Ji-Wah-Recipies.git </li>
+<li> You could also download the source code or even the .apk from <a href="https://github.com/Darthwimp/Wah-Ji-Wah-Recipies/releases/tag/beta-release-apk">here</a>. </li>
 <li> Have Android Studio and Flutter SDK installed on your computer. </li>
 <li> Open the project folder on adroid studio and find the `main.dart` file in the `lib` folder.
 <li> Plug in your phone to your PC via USB and then put your phone on debugging mode found at the developers option on settings. </li>
 <li> build the apk on your phone using android studio. </li>
+
 
 ## How to use the app
 <li> Open the app. </li>
